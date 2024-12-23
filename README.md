@@ -1,8 +1,8 @@
 # HEIC to JPG Converter
 
-此程式為將 HEIC 圖片轉換為 JPG 格式的 Python 程式
-這樣就不用買Windows Store內用來瀏覽HEIC程式的外掛套件了
-現省1USD，薛爛
+此程式為將 HEIC 圖片轉換為 JPG 格式的 Python 程式  
+這樣就不用買Windows Store內用來瀏覽HEIC程式的外掛套件了  
+現省1USD，薛爛(吧?)  
 
 ## 功能
 
@@ -35,12 +35,9 @@
 
    ```json
    {
-       "quality": 85,
-       "resolution": {
-           "width": 1920,
-           "height": 1080
-       },
-       "output_folder": "output_images"
+       "quality": 80,
+       "resolution_percent": 100,
+       "overwrite": true
    }
    ```
 
